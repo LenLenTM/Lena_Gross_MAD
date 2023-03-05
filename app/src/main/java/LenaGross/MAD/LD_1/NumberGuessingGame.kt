@@ -99,6 +99,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         return numberToList(output.toInt())
     }
 
+
     fun numberToList(number: Int): List<Int>{
         var ourNumber = number
         var numberList = mutableListOf<Int>()
